@@ -1,3 +1,21 @@
 site_name: Vernacular Spoken Utterances Dataset
+repo_url: https://github.com/Vernacular-ai/vsud
+
+nav:
+    - index.md
+    - dataset.md
+    - getting-started.md
+    - challenge.md
+    - contact.md
+
 theme:
   name: material
+  palette:
+    primary: black
+    accent: cyan
+  features:
+    - navigation.tabs
+  icon:
+    repo: fontawesome/brands/github-alt
+    logo: material/waveform
+    favicon: fontawesome/brands/git-alt
